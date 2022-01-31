@@ -1,0 +1,64 @@
+.intro{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    .left{
+        flex:0.5;
+        overflow: hidden;
+        background-color:white;
+        .imgContainer{
+            width: 450px;
+            height: 450px;
+            margin-top: 100px;
+            margin-left: 40px;
+            background-color: rgb(90, 90, 90);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+
+            img{
+                margin-left: 25%;
+                height: 50%;
+                width: 50%;
+                overflow: hidden;
+            }
+        }
+    }
+    .right{
+        flex:0.5;
+        overflow: hidden;
+        .wrapper{
+            display: block;
+            margin-top: 130px;
+            width: 450px;
+            margin-left: 30px;
+            justify-content: center;
+            h1{
+                font-size: 60px;
+            }
+            h2{
+                font-size: 35px;
+            }
+            h3{
+                font-size: 20px;
+                span{
+                    font-size: inherit;
+                    color: crimson;
+                    
+                }
+            }
+            img{
+                height: 40px;
+                margin-top: 200px;
+                margin-left: 150px;
+                animation: arrowBlink 2s infinite;
+            }
+            @keyframes arrowBlink {
+                100%{
+                    opacity: 0;
+                }
+                
+            }
+
+        }
+    }
+}
