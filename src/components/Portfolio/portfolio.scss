@@ -8,6 +8,7 @@
         font-size: 50px;
     }
     ul{
+
         margin: 10px;
         padding:0;
         list-style: none;
@@ -17,6 +18,7 @@
             margin-right: 50px;
             padding: 4px;
             border-radius: 15px;
+
             cursor: pointer;
             &.active{
                 background-color: crimson;
@@ -34,6 +36,8 @@
         align-items: center;
         flex-wrap: wrap;
         justify-content: center;
+    overflow: hidden;
+
         .item{
             width: 220px;
             height: 150px;
@@ -43,7 +47,7 @@
             display: flex;
             align-items: center;
             justify-content:center;
-
+            overflow: hidden;
             color:black;
             position: relative;
             transition: all 0.3s ease;

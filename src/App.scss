@@ -2,10 +2,10 @@
     height: 100vh;
     .sections{
         width: 100%;
-        height: 100vh;
-        background-color: rgb(255, 255, 255);
-        position: relative;
-        top: 70px;
+        height: fit-content;
+        background-color: white(255, 255, 255);
+        position: absolute;
+        top: 100px;
         scroll-behavior: smooth;
         scrollbar-width: none;
         &::-webkit-scrollbar{
@@ -14,6 +14,7 @@
         scroll-snap-type: y mandatory ;
 
         >*{
+            padding: 30px;
             height: 100vh;
             width: 100vw;
             scroll-snap-align: start;

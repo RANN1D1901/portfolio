@@ -1,3 +1,44 @@
 .projects{
     background-color: white(30, 183, 210);
+    height: fit-content;
+    display:block;
+    align-items: center;
+    padding: 20px;
+    grid-gap: 2px;  
+    a{
+        margin-top: 34px;
+        margin-left: 630px;
+    }
+    h1{
+        align-items: center;
+        &.head{
+            margin-left: 330px; 
+            font-size: 100px;
+        }
+    }
+    .Container{
+        overflow: hidden;
+        height: max-content;
+        width: fit-content;
+        ul{
+            align-items: center;
+            display: block;
+            li{
+                width: fit-content;
+                align-items: center;
+                margin-left: 100px;
+                }
+        }
+        p{
+            background-color: antiquewhite;
+        }
+
+    }
+    p{
+        &.note{
+            width: fit-content;
+            margin-left: 250px;
+        }
+
+    }
 }

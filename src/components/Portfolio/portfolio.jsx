@@ -17,29 +17,36 @@ export default function Portfolio() {
       </div>
       <div className='item'>
       <h3>Projects</h3>
+      <a href ="#projects">
         <img
             class="projects-image"
             src="assets/projects.png"
             alt="project"
         />
+        </a>
       </div>
       <div className='item'>
-      <h3>Publications</h3>
+      <h3>Socials</h3>
         <img
-            class="publications-image"
-            src="assets/publications.png"
-            alt="pub"
+            class="socials-image"
+            src="assets/socials.jpg"
+            alt="soc"
         />
       </div>
       <div className='item'>
-      <h3>Experience</h3>
+      <h3>Contact</h3>
+      <a href ="#contact">
         <img
-            class="work-image"
+            class="c-image"
             src="assets/work.png"
-            alt="work"
+            alt="c"
         />
+        </a>
       </div>
+
     </div>
 
   </div>;
 }
+
+//useEffect(()=>{},[selected])//any change to selected variable runs this function.

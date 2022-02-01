@@ -36,7 +36,18 @@
                 }
                 span{
                     font-size: 15px;
-                    font-weight:bolder
+                    font-weight:bolder;
+                    color: black;
+                }
+                a{
+                    text-decoration:none;
+                    &:hover{
+                        cursor: pointer;
+                        text-decoration:underline;
+
+
+                    }
+
                 }
             }
         }
@@ -79,5 +90,16 @@
                 }
             }
         }
+        .left{
+            .itemContainer{
+                span{
+                    font-size: 15px;
+                    font-weight:bolder;
+                    color: bisque;
+                }
+            }
+
+        }
+
     }
 } 
