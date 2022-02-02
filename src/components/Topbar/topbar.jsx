@@ -16,8 +16,8 @@ export default function Topbar({menuOpen,setmenuOpen}) {
                     <span>navdeeprandhawa0001@gmail.com</span>
                 </div>
                 <div className="itemContainer">
-                    <DownloadIcon className="icon"/>
-                    <a href="assets/resume.pdf" download>
+                    <DownloadIcon className="icon" />
+                    <a href="assets/Resume.pdf" download>
                     <span>CV</span>
                 </a>
                 </div>
