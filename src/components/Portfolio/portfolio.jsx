@@ -27,11 +27,13 @@ export default function Portfolio() {
       </div>
       <div className='item'>
       <h3>Socials</h3>
-        <img
-            class="socials-image"
-            src="assets/socials.jpg"
-            alt="soc"
-        />
+      <a href ="#socials">
+          <img
+              class="socials-image"
+              src="assets/socials.jpg"
+              alt="soc"
+          />
+        </a>
       </div>
       <div className='item'>
       <h3>Contact</h3>
