@@ -6,7 +6,7 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 import AutoStoriesIcon from '@mui/icons-material/AutoStories';
 import InstagramIcon from '@mui/icons-material/Instagram';
 export default function Socials() {
-  return <div className='socials'>
+  return <div className='socials' id="socials">
     <div className='wrapper'>
       <div className="itemContainer">
               <LinkedInIcon className="icon"/>
