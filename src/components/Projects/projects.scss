@@ -1,23 +1,37 @@
+@import "../../global.scss";
 .projects{
     background-color: white(30, 183, 210);
-    height: fit-content;
-    display:block;
+    display:flex;
     align-items: center;
-    padding: 20px;
-    grid-gap: 2px;  
+    flex-direction: column;
+    overflow: visible;
+    
+    @include mobile{
+        align-items: center;
+        padding: 0px;
+    } 
     a{
+        overflow: visible;
         margin-top: 34px;
-        margin-left: 630px;
+        margin-left: 100px;
     }
     h1{
         align-items: center;
+        display: flex;
+        overflow:visible;
         &.head{
-            margin-left: 330px; 
+            font-display:inherit;
+            margin-left: 80px; 
             font-size: 100px;
+            margin-bottom: 20px;
+            @include mobile{
+                margin-left: 110px; 
+                font-size: 50px;
+            } 
         }
     }
     .Container{
-        overflow: hidden;
+        overflow:scroll;
         height: max-content;
         width: fit-content;
         ul{
@@ -27,18 +41,28 @@
                 width: fit-content;
                 align-items: center;
                 margin-left: 100px;
-                }
+                @include mobile{
+                    margin-left: 0px; 
+                    font-size: 9px;
+                    iframe,img{
+                        width: 320px;
+                        height: 300px;
+                    }
+                } 
+                
+            }
         }
         p{
             background-color: antiquewhite;
         }
-
     }
     p{
         &.note{
             width: fit-content;
             margin-left: 250px;
+            @include mobile{
+                margin-left: 10px; 
+            } 
         }
-
     }
 }

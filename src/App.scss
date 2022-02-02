@@ -5,7 +5,7 @@
         height: fit-content;
         background-color: white(255, 255, 255);
         position: absolute;
-        top: 100px;
+        top: 10px;
         scroll-behavior: smooth;
         scrollbar-width: none;
         &::-webkit-scrollbar{
@@ -14,8 +14,8 @@
         scroll-snap-type: y mandatory ;
 
         >*{
-            padding: 30px;
-            height: 100vh;
+            padding: 10px;
+            height: 70vh;
             width: 100vw;
             scroll-snap-align: start;
         }
