@@ -16,7 +16,7 @@ export default function Socials() {
         </div>
         <div className="itemContainer">
               <GitHubIcon className="icon"/>
-              <a href="https://github.com/RANN1D1901" target="_blank">
+              <a href="https://github.com/rnavdeep" target="_blank">
               <span>Github</span>
             </a>
         </div>
